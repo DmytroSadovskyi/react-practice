@@ -1,13 +1,3 @@
-const Value = ({ value }) => (
-  <span
-    style={{
-      display: 'block',
-      textAlign: 'center',
-      marginBottom: '10px',
-    }}
-  >
-    {value}
-  </span>
-);
+const Value = ({ value }) => <span className="Counter__value">{value}</span>;
 
 export default Value;

@@ -1,0 +1,43 @@
+.Dropdown {
+  position: relative;
+  width: 310px;
+  margin-bottom: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 5px;
+}
+
+.Dropdown__menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: teal;
+  color: white;
+}
+
+.Dropdown__toggle--hide {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
+.Dropdown__toggle--show {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: teal;
+  cursor: pointer;
+}
