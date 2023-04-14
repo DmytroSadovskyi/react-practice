@@ -1,4 +1,4 @@
-import { Component } from 'react';
+// import { Component } from 'react';
 import Counter from './Counter';
 import Dropdown from './Dropdown';
 import ColorPicker from './ColorPicker';
@@ -11,14 +11,12 @@ const colorPickerOptions = [
   { label: 'indigo', color: '#3F51B5' },
 ];
 
-export class App extends Component {
-  render() {
-    return (
-      <>
-        <Counter initialValue={0} />
-        <Dropdown />
-        <ColorPicker options={colorPickerOptions} />
-      </>
-    );
-  }
-}
+export const App = () => {
+  return (
+    <>
+      <Counter initialValue={0} />
+      <Dropdown />
+      <ColorPicker options={colorPickerOptions} />
+    </>
+  );
+};
